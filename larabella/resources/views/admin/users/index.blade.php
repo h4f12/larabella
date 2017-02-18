@@ -1,1 +1,1 @@
-create.blade.php
+beautiful day, beautiful say!!
