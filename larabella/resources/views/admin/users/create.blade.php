@@ -34,8 +34,8 @@
 	</div>
 
 	<div class="form-group">
-		{!! Form::label('image', 'Users Pic:') !!}
-		{!! Form::file('image') !!}
+		{!! Form::label('image', 'Upload Users Pic:') !!}
+		{!! Form::file('userpic') !!}
 	</div>
 
 	<div class="form-group">
@@ -49,3 +49,50 @@
 
 
 @stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
