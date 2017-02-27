@@ -7,7 +7,9 @@
 @include('includes.form_errors')
 
 <div>
+
 {!! Form::open(['method'=>'POST', 'action'=>'AdminUsersController@store', 'files' => true]) !!}
+
 	<div class="form-group">
 		{!! Form::label('name', 'First Name:') !!}
 		{!! Form::text('name', null, ['class'=>'form-control']) !!}

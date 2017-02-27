@@ -2,6 +2,16 @@
 
 @section('content')
 
+<div>
+{!! Form::open(['method'=>'DELETE', 'action'=>['AdminUsersController@destroy', $user->id], 'files' => true]) !!}
+	
+	<div class="form-group">
+		{!! Form::submit('Delete This User', ['class'=>'btn btn-danger']) !!}
+	</div>
+
+{!! Form::close() !!}
+</div>
+
 <h1 class="text-center">Edit User</h1><br>
 
 @include('includes.form_errors')
@@ -54,6 +64,9 @@
 
 {!! Form::close() !!}
 </div>
+
+
+
 
 
 @stop
